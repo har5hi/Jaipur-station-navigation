@@ -1,0 +1,42 @@
+[
+  {
+    "id": "12956",
+    "name": { "en": "Shatabdi Express", "hi": "शताब्दी एक्सप्रेस" },
+    "destination": { "en": "New Delhi (NDLS)", "hi": "नई दिल्ली (NDLS)" },
+    "departure": "06:00 AM",
+    "platform": "1",
+    "status": { "en": "On Time", "hi": "समय पर" }
+  },
+  {
+    "id": "12986",
+    "name": { "en": "Delhi Double Decker", "hi": "दिल्ली डबल डेकर" },
+    "destination": { "en": "Delhi Sarai Rohilla (DEE)", "hi": "दिल्ली सराय रोहिल्ला (DEE)" },
+    "departure": "06:20 AM",
+    "platform": "2",
+    "status": { "en": "Delayed by 10m", "hi": "10 मिनट की देरी" }
+  },
+  {
+    "id": "12239",
+    "name": { "en": "Hisar Duronto", "hi": "हिसार दुरंतो" },
+    "destination": { "en": "Hisar (HSR)", "hi": "हिसार (HSR)" },
+    "departure": "08:15 AM",
+    "platform": "4",
+    "status": { "en": "On Time", "hi": "समय पर" }
+  },
+  {
+    "id": "19721",
+    "name": { "en": "Jaipur - Bhopal Express", "hi": "जयपुर - भोपाल एक्सप्रेस" },
+    "destination": { "en": "Bhopal (BPL)", "hi": "भोपाल (BPL)" },
+    "departure": "10:30 AM",
+    "platform": "3",
+    "status": { "en": "Arrived", "hi": "पहुंच चुकी है" }
+  },
+  {
+    "id": "12916",
+    "name": { "en": "Ashram Express", "hi": "आश्रम एक्सप्रेस" },
+    "destination": { "en": "Ahmedabad (ADI)", "hi": "अहमदाबाद (ADI)" },
+    "departure": "08:45 PM",
+    "platform": "1",
+    "status": { "en": "Scheduled", "hi": "निर्धारित" }
+  }
+]
