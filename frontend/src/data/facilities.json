@@ -6,7 +6,7 @@
     "category": "travel",
     "position": { "lat": 26.9196, "lng": 75.7880 },
     "icon": "🚪",
-    "imageUrl": "https://images.unsplash.com/photo-1541427468627-a89a96e5ca1d?q=80&w=600&auto=format&fit=crop",
+    "imageUrl": "/images/entrance.png",
     "description": {
       "en": "The grand main entrance of Jaipur Junction. Here you will find ticket counters and security checks.",
       "hi": "जयपुर जंक्शन का भव्य मुख्य द्वार। यहाँ आपको टिकट काउंटर और सुरक्षा जांच मिलेगी।"
@@ -19,7 +19,7 @@
     "category": "travel",
     "position": { "lat": 26.9192, "lng": 75.7875 },
     "icon": "🚉",
-    "imageUrl": "https://images.unsplash.com/photo-1474487548417-781cb71495f3?q=80&w=600&auto=format&fit=crop",
+    "imageUrl": "/images/platform.png",
     "description": {
       "en": "The longest and primary platform at Jaipur Junction, accommodating premium trains.",
       "hi": "जयपुर जंक्शन का सबसे लंबा और प्राथमिक प्लेटफॉर्म, जिसमें प्रीमियम ट्रेनें आती हैं।"
@@ -32,7 +32,7 @@
     "category": "essentials",
     "position": { "lat": 26.9198, "lng": 75.7885 },
     "icon": "🛋️",
-    "imageUrl": "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=600&auto=format&fit=crop",
+    "imageUrl": "/images/waiting.png",
     "description": {
       "en": "Comfortable air-conditioned waiting area for passengers with valid upper-class tickets.",
       "hi": "वैध उच्च श्रेणी के टिकट वाले यात्रियों के लिए आरामदायक वातानुकूलित प्रतीक्षा क्षेत्र।"
@@ -45,7 +45,7 @@
     "category": "essentials",
     "position": { "lat": 26.9194, "lng": 75.7882 },
     "icon": "🚻",
-    "imageUrl": "https://images.unsplash.com/photo-1621619656461-71fb5ffc7746?q=80&w=600&auto=format&fit=crop",
+    "imageUrl": "/images/toilet.png",
     "description": {
       "en": "Clean and well-maintained public restrooms available 24/7.",
       "hi": "24/7 उपलब्ध स्वच्छ और अच्छी तरह से बनाए रखा सार्वजनिक शौचालय।"
@@ -58,7 +58,7 @@
     "category": "food",
     "position": { "lat": 26.9190, "lng": 75.7878 },
     "icon": "🍲",
-    "imageUrl": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=600&auto=format&fit=crop",
+    "imageUrl": "/images/food.png",
     "description": {
       "en": "Multi-cuisine IRCTC food plaza offering fresh meals, snacks, and beverages.",
       "hi": "मल्टी-कुजीन आईआरसीटीसी फूड प्लाजा जो ताजा भोजन, स्नैक्स और पेय पदार्थ परोसता है।"
@@ -71,7 +71,7 @@
     "category": "food",
     "position": { "lat": 26.9191, "lng": 75.7881 },
     "icon": "🥛",
-    "imageUrl": "https://images.unsplash.com/photo-1615486171448-42f8878546b4?q=80&w=600&auto=format&fit=crop",
+    "imageUrl": "/images/chai.png",
     "description": {
       "en": "Famous state-run dairy stall serving fresh milk, lassi, buttermilk, and sweets.",
       "hi": "ताजा दूध, लस्सी, छाछ और मिठाई परोसने वाला प्रसिद्ध सरकारी डेयरी स्टॉल।"
@@ -84,7 +84,7 @@
     "category": "services",
     "position": { "lat": 26.9197, "lng": 75.7879 },
     "icon": "🧳",
-    "imageUrl": "https://images.unsplash.com/photo-1553531384-cc64ac80f931?q=80&w=600&auto=format&fit=crop",
+    "imageUrl": "/images/cloak.png",
     "description": {
       "en": "Secure luggage storage facility. Lock your bags before exploring the city.",
       "hi": "सुरक्षित सामान भंडारण सुविधा। शहर घूमने से पहले अपने बैग लॉक करें।"
@@ -97,7 +97,7 @@
     "category": "services",
     "position": { "lat": 26.9195, "lng": 75.7886 },
     "icon": "⚕️",
-    "imageUrl": "https://plus.unsplash.com/premium_photo-1661766468762-2432ebdbde00?q=80&w=600&auto=format&fit=crop",
+    "imageUrl": "/images/medical.png",
     "description": {
       "en": "Pharmacy equipped with essential medicines and first aid for emergencies.",
       "hi": "आपात स्थिति के लिए आवश्यक दवाओं और प्राथमिक चिकित्सा से सुसज्जित फार्मेसी।"
@@ -110,7 +110,7 @@
     "category": "services",
     "position": { "lat": 26.9200, "lng": 75.7882 },
     "icon": "🚕",
-    "imageUrl": "https://images.unsplash.com/photo-1533555304910-3d8544e432c7?q=80&w=600&auto=format&fit=crop",
+    "imageUrl": "/images/taxi.png",
     "description": {
       "en": "Government-approved prepaid taxi booth for safe travel out of the station.",
       "hi": "स्टेशन से बाहर सुरक्षित यात्रा के लिए सरकार द्वारा स्वीकृत प्रीपेड टैक्सी बूथ।"
@@ -123,7 +123,7 @@
     "category": "services",
     "position": { "lat": 26.9195, "lng": 75.7881 },
     "icon": "ℹ️",
-    "imageUrl": "https://images.unsplash.com/photo-1556745753-b2904692b3cd?q=80&w=600&auto=format&fit=crop",
+    "imageUrl": "/images/help.png",
     "description": {
       "en": "Information center for train statuses, platform numbers, and general assistance.",
       "hi": "ट्रेन की स्थिति, प्लेटफॉर्म नंबर और सामान्य सहायता के लिए सूचना केंद्र।"
