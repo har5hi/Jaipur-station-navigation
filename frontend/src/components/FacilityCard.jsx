@@ -23,18 +23,17 @@ const FacilityCard = ({ facility, isActive, onClick, onRouteToggle }) => {
   };
 
   return (
-    <motion.div 
+    <motion.div
       whileHover={{ scale: 1.02, y: -2 }}
-      className={`p-5 rounded-2xl cursor-pointer transition-all duration-300 overflow-hidden border ${
-        isActive 
-          ? 'bg-white shadow-xl shadow-primary/10 border-gray-200 dark:bg-slate-800 dark:border-slate-600' 
+      className={`p-5 rounded-2xl cursor-pointer transition-all duration-300 overflow-hidden border ${isActive
+          ? 'bg-white shadow-xl shadow-primary/10 border-gray-200 dark:bg-slate-800 dark:border-slate-600'
           : 'bg-white/80 dark:bg-slate-800/80 shadow-md border-gray-200 dark:border-slate-700 hover:shadow-lg'
-      }`}
+        }`}
       onClick={onClick}
     >
       {/* Optional Top Image */}
       {isActive && facility.imageUrl && (
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, height: 0 }}
           animate={{ opacity: 1, height: 160 }}
           className="w-full rounded-xl overflow-hidden mb-5 shadow-sm relative bg-gray-100 dark:bg-slate-700"
@@ -51,15 +50,15 @@ const FacilityCard = ({ facility, isActive, onClick, onRouteToggle }) => {
             </div>
           ) : (
             <>
-              <img 
-                src={facility.imageUrl} 
-                alt={facility.name[language]} 
+              <img
+                src={facility.imageUrl}
+                alt={facility.name[language]}
                 onLoad={() => setImageLoaded(true)}
                 onError={(e) => {
                   setImageError(true);
                   e.target.src = '/station-default.jpg';
                 }}
-                className={`w-full h-full object-cover transition-all duration-700 hover:scale-105 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`} 
+                className={`w-full h-full object-cover transition-all duration-700 hover:scale-105 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent pointer-events-none"></div>
             </>
@@ -87,9 +86,9 @@ const FacilityCard = ({ facility, isActive, onClick, onRouteToggle }) => {
             )}
           </div>
         </div>
-        
+
         {isActive && (
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
           >
@@ -97,14 +96,14 @@ const FacilityCard = ({ facility, isActive, onClick, onRouteToggle }) => {
           </motion.div>
         )}
       </div>
-      
+
       {isActive && !showDirections && (
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, height: 0 }}
           animate={{ opacity: 1, height: 'auto' }}
           className="mt-5 pt-4 border-t border-gray-200/50 dark:border-slate-700/50"
         >
-          <button 
+          <button
             className="w-full bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white py-3 rounded-xl text-sm font-bold transition-all duration-300 flex items-center justify-center shadow-lg hover:shadow-xl hover:scale-[1.02] hover:brightness-110 active:scale-95"
             onClick={handleShowDirections}
           >
