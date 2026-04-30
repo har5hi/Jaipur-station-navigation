@@ -2,6 +2,13 @@
 
 A smart navigation web app for Jaipur Railway Station.
 
+## 🌐 Live Demo
+
+👉 [Click here to view the project](https://jaipur-station-navigation.vercel.app/login)
+
+## ⚠️ Note
+Frontend-only deployment for demo purposes.
+
 ## 🔥 Features
 
 * 🔐 User Authentication (JWT)
