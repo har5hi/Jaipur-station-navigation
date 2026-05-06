@@ -2,9 +2,6 @@
 
 A smart navigation web app for Jaipur Railway Station.
 
-## ⚠️ Note
-Frontend-only deployment for demo purposes.
-
 ## 🔥 Features
 
 * 🔐 User Authentication (JWT)
